@@ -65,13 +65,14 @@
     
         isValid = 1;
     printf(isValid ? "Date is valid.\n" : "Date is invalid.\n");
-}
-int main() {
-
+    }
+    
+    int main() {
+    
     validateDate();
+    
     return 0;
-}
-
+    }
 # Output:
 <img width="417" height="124" alt="image" src="https://github.com/user-attachments/assets/9e381b4a-6dc2-49f1-a657-fa7ad355abf2" />
 
@@ -132,8 +133,7 @@ Thus, the program was implemented and executed successfully, and the required ou
     int min(int a, int b) {
    
     return (a < b) ? a : b;
-    }
-   
+    }   
     int main() {
     
     int num1, num2, maxi, mini;
@@ -228,6 +228,7 @@ Thus, the program was implemented and executed successfully, and the required ou
   
     return C;
     }
+    
     int main() {
     
     float F, C;
