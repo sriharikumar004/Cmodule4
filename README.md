@@ -66,7 +66,6 @@
         isValid = 1;
     printf(isValid ? "Date is valid.\n" : "Date is invalid.\n");
 }
-
 int main() {
 
     validateDate();
@@ -203,27 +202,44 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 11: 
  Stop
 # Program:
-#include <stdio.h>
-float celtof() {
+    #include <stdio.h>
+    
+    float celtof() {
+    
     float C, F;
+    
     printf("Enter the temperature in Celsius: ");
+    
     scanf("%f", &C);
+    
     F = (C * 9 / 5) + 32;
+    
     return F;
-}
-float ftocel() {
+   }
+   float ftocel() {
+   
     float f, C;
+    
     printf("Enter the temperature in Fahrenheit: ");
+    
     scanf("%f", &f);
+    
     C = (f - 32) * 5 / 9;
+  
     return C;
-}
-int main() {
+    }
+    int main() {
+    
     float F, C;
+    
     F = celtof();
+    
     printf("Temperature in Fahrenheit: %.2f°F\n", F);
+    
     C = ftocel();
+    
     printf("Temperature in Celsius: %.2f°C\n", C);
+    
     return 0;
 }
 # Output:
