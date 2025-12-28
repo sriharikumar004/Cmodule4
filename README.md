@@ -215,8 +215,9 @@ Thus, the program was implemented and executed successfully, and the required ou
     F = (C * 9 / 5) + 32;
     
     return F;
-   }
-   float ftocel() {
+   
+    }   
+    float ftocel() {
    
     float f, C;
     
@@ -418,8 +419,7 @@ To build a C program to convert a string as described above, using a user-define
     if (len > 1) {
     
         str[len - 1] = toupper(str[len - 1]);
-    }
-    
+    }    
 }
    int main() {
 
